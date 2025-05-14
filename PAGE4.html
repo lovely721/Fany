@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="tableau.css" media="all"/>
+</head>
+
+
+<body>
+   <a id="up"><h2>Quelques listes non ordonnées</h2></a> </br>
+ <p>Voici une liste à puce  :</p>
+ <ul>
+     <li>Liste</li>
+     <li>à</li>
+     <li>puces</li>
+ </ul></br>
+ <p>Avec <em>circle</em> :</p>
+
+ <ul class="cercle">
+       <li>Liste</li>
+       <li>à</li>
+       <li>puces</li>
+ </ul></br>
+
+  
+  <p>Avec <em>square</em> :</p>
+  <ul class="carre">
+       <li>Liste</li>
+       <li>à</li>
+       <li>puces</li>
+    </ul></br>
+    <p>Avec <em>none</em> (sans puces) :</p>
+   
+    
+ <ul class="rien">
+     <li>Liste</li>
+     <li>à</li>
+     <li>puces</li>
+ </ul></br>
+ 
+ <h2>Quelques listes ordonnées</h2></br>
+ <p>Liste à puces ordonnée sans modification (= <em>decimal</em>)</p>
+ <ol>
+     <li>Un</li>
+     <li>Deux</li>
+     <li>Trois</li>
+     <li>Quatre</li>
+ </ol></br>
+      
+ 
+ <p>Avec <em>decimal-leading-zero</em> (<strong>Ne fonctionne pas sous IE)</strong>) :</p>
+ <ol class="commence_a_zero">
+     <li>Un</li>
+     <li>Deux</li>
+     <li>Trois</li>
+     <li>Quatre</li>
+ </ol></br>
+ 
+ 
+ <p>Avec <em>lower-alpha</em> :</p>
+ <ol class="lettres_minuscules">
+     <li>Un</li>
+     <li>Deux</li>
+     <li>Trois</li>
+     <li>Quatre</li>
+ </ol></br>
+ <p>Avec <em>upper-roman</em> :</p>
+ <ol class="chiffres_romains">
+     <li>Un</li>
+     <li>Deux</li>
+     <li>Trois</li>
+     <li>Quatre</li>
+   </ol></br>
+ 
+ 
+ <p>Avec <em>lower-greek</em> (<strong>Ne fonctionne pas sous IE</strong>) :</p>
+ <ol class="lettres_grecques">
+      <li>Un</li>
+      <li>Deux</li>
+      <li>Trois</li>
+      <li>Quatre</li>
+ </ol></br>
+    
+
+   <h3><strong>Nous allons essayer de faire des tableaux</strong</p></h3>
+   <h4> 1<sup>er</sup> Tableau</h4>
+    <table>
+        <tr>
+            <td>NOM</td>
+            <td>AGE</td>
+            <td>PAYS</td>
+        </tr>
+        <tr>
+            <td>Brian</td>
+            <td>19ans</td>
+            <td>Bénin</td>
+        </tr>
+        <tr>
+            <td>Prince</td>
+            <td>18ans</td>
+            <td>Bénin</td>
+        </tr>
+        <tr>
+            <td>Orphelia</td>
+            <td>15ans</td>
+            <td>Bénin</td>
+        </tr>
+    </table>
+    <h4>2<sup>ème</sup> tableau</h4>
+
+
+
+
+
+    <table>
+        <caption>Passagers du vol 377</caption>
+
+        <thead>
+            <tr>
+                <td>NOM</td>
+                <td>AGE</td>
+                <td>PAYS</td>
+            </tr>
+
+        </thead>
+        <tfoot>
+            <tr>
+                <td>NOM</td>
+                <td>AGE</td>
+                <td>PAYS</td>
+            </tr>
+        </tfoot>
+    <tbody>
+        <tr>
+            <td>Carmen</td>
+            <td>33ans</td>
+            <td>Espagne</td>
+        </tr>
+        <tr>
+            <td>Michelie</td>
+            <td>26ans</td>
+            <td>Etats-Unis</td>
+        </tr>
+        <tr>
+            <td>Francois</td>
+            <td>43ans</td>
+            <td>France</td>
+        </tr>
+        <tr>
+            <td>Martine</td>
+            <td>34ans</td>
+            <td>France</td>
+        </tr> 
+        <tr>
+            <td>Jonathan</td>
+            <td>13ans</td>
+            <td>Australie</td>
+        </tr>
+        <tr>
+            <td>Xu</td>
+            <td>19ans</td>
+            <td>Chine</td>
+        </tr>
+    </tbody>
+    </table>
+    <h4>3<sup>ème</sup>tableau</h4>
+
+
+    <table>
+        <tr>
+            <th>Titre du film</th>
+            <th>Pour enfants?</th>
+            <th>Pour adolescent?</th>
+        </tr>
+        <tr>
+            <td>Massacre à la tronconneuse</td>
+            <td>Non, trop violent</td>
+            <td>Oui</td>
+        </tr>
+        <tr>
+            <td>Les bisounoursfont du ski</td>
+            <td>Oui, adapté</td>
+            <td>Pas assez violent...</td>
+        </tr>
+        <tr>
+            <td>Lucky Luke,seul contre tous</td>
+            <td colspan="2">Pour toute la famille</td>
+            
+        </tr>
+    </table>
+    <h4>4<sup>ème</sup>tableau</h4>
+
+    <table>
+       <tr>
+         <th>Titre du film</th>
+         <td>Massacre à la tronconneuse</td>
+         <td>Les bisounours font du ski</td>
+         <td>Lucky Luke, seul contre tous</td>
+        </tr> 
+        <tr>
+            <th>Pour enfants?</th>
+            <td>Non,trop violent</td>
+            <td>Oui, adapté</td>
+            <td rowspan="2">Pour toute la famille!</td>
+        </tr> 
+        <tr>
+            <th>Pour adolescents?</th>
+            <td>oui</td>
+            <td>Pas assez violent</td>
+        </tr>
+    </table>
+
+ <a href="#up"><button><strong>ALLER EN HAUT DE LA PAGE</strong></button></a>
+
+</body>
+</html>

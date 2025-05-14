@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulaire.css" media="all"/>
+    <title>Document</title>
+    
+</head>
+<body>
+
+    <h2>Formulaire2</h2></br>
+    <form method="post" action="cible_formulaire.php">
+        <fieldset class="eta">
+            <legend>Etat Civil</legend>
+            <label for="matricule">Matricule</label><br />
+            <input type="text" name="matricule" id="matricule" tabindex="10" /><br />
+            <label for="prenom">Prenom</label><br />
+            <input type="text" name="prenom" id="prenom" tabindex="20" /><br />
+            <label for="Nom">Nom</label><br />
+            <input type="text" name="Nom" id="Nom" tabindex="30" /><br />
+            <label for="matricule">Matricule</label><br />
+            <input type="text" name="matricule" id="matricule" tabindex="10" /><br />
+            <label for="sexe">Sexe</label><br />
+            <input type="text" name="Sexe" id="Sexe" tabindex="20" /><br />
+            <label for="Age">Age</label><br />
+            <input type="text" name="Age" id="Age" tabindex="30" /><br />
+         </fieldset></br>
+         
+         
+    </form>
+    <form method="post" action="traitement.php">
+        <fieldset class="diplo">
+            <legend>Diplome</legend>
+            <input type="checkbox" name="CEP" id="CEP" /> <label for="CEP">CEP</label><br />
+            <input type="checkbox" name="BEPC" id="BEPC" /> <label for="BEPC">BEPC</label><br />
+            <input type="checkbox" name="BAC" id="BAC"  /> <label for="BAC">BAC</label><br />
+            
+                
+                
+                 
+            
+        </fieldset></br>
+        
+    </form>
+
+
+    <form method="post" action="traitement.php">
+        <fieldset class="dom">
+            <legend>Domaine</legend>
+            <input type="radio" name="expert it" value="Expert it" id="Expert it" /> <label for="expert it">Expert It</label><br />
+            <input type="radio" name="expert bavardage" value="Expert bavardage" id="Expert bavardage" /> <label for="expert bavardage">Expert bavardage</label><br />
+                
+                 
+            
+        </fieldset></br>
+        
+    </form>
+
+   
+        
+    <button>Envoyer</button><button>Effacer</button><button>Quitter</button>      
+
+        
+
+        
+
+
+</body>
+</html>

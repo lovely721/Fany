@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon site web</title>
+    <style>
+      body{
+        font-family: Arial,sans-serif;
+        padding: 20px;
+        background-color: greenyellow;
+      }
+
+      .table-container{
+        display: flex;
+        gap: 20px; /*espace entre les tableaux*/
+        flex-wrap: wrap; /*permet le retour à la ligne si l'ecran est trop petit*/
+        width: 50%;
+      }
+      table{
+        border-collapse: collapse;
+        width: 300px;
+        margin: 20px auto ;
+        text-align: center;
+      }
+      th,td{
+        background: color #f2f2f2; ;
+        color: black;
+        border: 2px solid black;
+      }
+      caption{
+        caption-side: top;
+        font-weight: bold;
+        margin-bottom: 8px;
+      }
+    </style>
+</head>
+<body>
+  <div class="table-container">
+    <table>
+        <caption>Passagers du vol 377</caption>
+        
+         <tr>
+           <th>Nom</th>
+           <th>Age</th>
+           <th>Pays</th>
+         </tr>
+         <tr>
+          <td>Carmen</td>
+          <td>33 ans</td>
+          <td>Espagne</td>
+         </tr>
+         <tr>
+          <td>Michelle</td>
+          <td>26 ans</td>
+          <td>Etats-Unis</td>
+         </tr>
+         <tr>
+          <td>Martine</td>
+          <td>34 ans</td>
+          <td>France</td>
+         </tr>
+         <tr>
+          <td>Jonathan</td>
+          <td>13 ans</td>
+          <td>Australie</td>
+         </tr>
+         <tr>
+          <td>Xu</td>
+          <td>19 ans</td>
+          <td>Chine</td>
+         </tr>
+     </table>
+
+
+     <table>
+      <caption>Liste des etudiants</caption>
+
+      <tr>
+        <th>Numero</th>
+        <th>Nom</th>
+        <th>Prenom</th>
+        <th>Sexe</th>
+      </tr>
+      <tr>
+        <td>35725</td>
+        <td>EGBO</td>
+        <td>Bien</td>
+        <td>M</td>
+
+      </tr>
+      <tr>
+        <td>56425</td>
+        <td>MIASSIA</td>
+        <td>Arys</td>
+        <td>M</td>
+      </tr>
+      <tr>
+        <td>29225</td>
+        <td>TCHEDJI</td>
+        <td>Dossi</td>
+        <td>F</td>
+      </tr>
+     </table>
+
+     <table>
+      <caption>Tab1</caption>
+      <tr>
+        <td rowspan="2">IG1</td>
+        <td>GTL1</td>
+      </tr>
+      <tr>
+        <td>GC1</td>
+      </tr>
+
+     </table>
+
+     <table>
+      <caption>Tab2</caption>
+      <tr>
+        <td colspan="2">IG-2</td>
+      </tr>
+      <tr>
+        <td>GTL-2</td>
+        <td>GC-2</td>
+      </tr>
+     </table>
+    </div>
+        
+</body>
+</html>
